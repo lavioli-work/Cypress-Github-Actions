@@ -37,3 +37,5 @@ jobs:
           timeout-minutes: 60
           with:
             command: npm run ci:e2e
+          env:
+            CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
