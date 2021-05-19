@@ -1,0 +1,15 @@
+{
+  "projectId": "",
+    "video": false,
+    "videoUploadOnPasses": false,
+    "screenshotOnRunFailure": true,
+    "screenshotsFolder": "./sf-ui/cypress/screenshots",
+    "videosFolder": "./sf-ui/cypress/videos",
+    "downloadsFolder": "./cypress/testing-downloads",
+    "chromeWebSecurity": false,
+    "numTestsKeptInMemory": 5,
+    "defaultCommandTimeout": 20000,
+    "requestTimeout": 20000,
+    "viewportWidth": 1400,
+    "viewportHeight": 1500
+}

@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Cypress-Github-Actions';
+  title = 'Hello';
+
+  handleButtonClick() {
+    this.title = 'Cypress Github Actions Demo!'
+  }
 }

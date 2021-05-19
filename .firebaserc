@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "cypress-github-actions": {
+      "hosting": {
+        "Cypress-Github-Actions": [
+          "cypress-github-actions"
+        ]
+      }
+    }
+  }
+}

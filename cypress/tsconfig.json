@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+      "types": ["cypress", "node"],
+      "allowJs": true,
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "target": "es5",
+      "lib": ["esnext", "dom"],
+      "noEmit": true,
+      "module": "commonjs"
+  },
+  "include": ["**/*.ts", "support/index.js", "support/command.js"]
+}
